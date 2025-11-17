@@ -1,0 +1,135 @@
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #8d3131;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666666;
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1,5;
+    font-size: 16px;
+    color:purple;   
+}
+
+a {
+    color: rgb(0, 255, 34);
+    text-decoration: rgb(187, 126, 13);   
+}
+
+a:hover {
+    text-decoration: underline; color: orangered;
+}
+
+#lien1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: teal;
+}
+
+body {
+    width: 90%;
+    margin: center; 
+    background: linear-gradient(90deg, #410c0c, #0c2b03);
+    background-image: url("https://images.unsplash.com/photo-1530508777238-14544088c3ed?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+ 
+}
+
+blockquote, q {
+    font-size: 160%;
+    width: 45%;
+    margin: auto;
+    background-color: #5c5b5bff;
+    color: Firebrick; border-left: 3px purple solid;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+blockquote.farmer {
+    background-color: #3b3a3aff;
+    color: rgb(0, 255, 200);
+    border-left: #00d9ff solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+blockquote.villagers {
+    background-color: #7a7676ff;
+    color: rgb(255, 0, 0);
+    border-left: #ff0000 solid 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header > nav > ul {
+    background-color: yellow;  
+}
+
+.Good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.Bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+ 
+table tr:nth-child(odd) {
+    background-color: #424242;
+}
+
+li {
+    color: white;
+}
+
+figcaption{
+    color: white;
+}
+
+h1 ,h2 {
+    text-align: center;
+    color: #ff6600;
+    font-size: 3em;
+}
+
+ul.Types-of-people li:nth-child(1) {
+    background-image: url("bien.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 5px;
+    line-height: 60px;
+}
+ul.Types-of-people li:nth-child(2) {
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 10px;
+    line-height: 60px;
+}
+ul.Types-of-people li:nth-child(3) {
+    background-image: url("chat.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 60px;
+    line-height: 60px;
+}
+ul.Types-of-people li:nth-child(4) {
+    line-height: 60px;
+}
